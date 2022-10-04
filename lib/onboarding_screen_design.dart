@@ -11,7 +11,7 @@ class FirstScreen extends StatelessWidget {
     return Container(
       height: size.height,
       width: size.width,
-      color: screenModelList[0].backgroundColor,
+      color: Color.fromRGBO(225, 255, 255, 1),
       child: Column(
         children: [
           Padding(
@@ -93,7 +93,7 @@ class FirstScreen extends StatelessWidget {
           SizedBox(
             width: size.width / 1.17,
             child: Text(
-              screenModelList[0].description,
+              description,
               style: TextStyle(
                 fontSize: 17,
                 fontFamily: 'Playfair',
@@ -217,7 +217,7 @@ class SecondScreen extends StatelessWidget {
                   child: SizedBox(
                     width: size.width / 1.17,
                     child: Text(
-                      screenModelList[0].description,
+                      description,
                       style: TextStyle(
                         fontSize: 17,
                         fontFamily: 'Playfair',
